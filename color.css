@@ -1,1 +1,49 @@
 
+.daniel .name,
+.daniel .attention,
+.jonathan .name,
+.jonathan .attention,
+.patrick .name,
+.patrick .attention {
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel .grad,
+.jonathan .grad,
+.patrick .grad {
+    color: hsl(0, 0%, 100%, 50%);
+}
+
+.daniel .full-review,
+.jonathan .full-review,
+.patrick .full-review {
+    color: hsl(0, 0%, 100%, 70%);
+}
+
+.kira,
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.kira .name,
+.kira .attention,
+.jeanette .name,
+.jeanette .attention {
+    color: hsl(217, 19%, 35%);
+}
+
+.kira .grad,
+.jeanette .grad {
+    color: hsl(217, 19%, 35%, 50%);
+}
+
+.kira .full-review,
+.jeanette .full-review {
+    color: hsl(217, 19%, 35%, 70%);
+}
+
+.daniel img,
+.patrick img {
+    border: 3px solid hsl(263, 89%, 68%);
+}
+
