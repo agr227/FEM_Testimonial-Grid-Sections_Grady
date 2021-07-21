@@ -35,7 +35,6 @@
 .testimonial-content .name,
 .testimonial-content .grad {
 /*     display: flex; */
-    flex-direction: column;
     align-content: center;
     justify-items: flex-start;
     padding-left: 6em;
