@@ -1,0 +1,134 @@
+.main-content {
+    margin: 8% 8%;
+    flex: 1 1 100%;
+    min-height: 100%;
+    text-align: left;
+    line-height: 24px;
+}
+
+.testimonial {
+    display: grid;
+    height: 100%;
+    width: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-areas:
+        "daniel""daniel""jonathan""kira"
+        "jeanette""patrick""patrick""kira"; */
+    gap: 2em;
+}
+
+.testimonial-content {
+    padding: 2em;
+    border: 1px solid hsl(0, 0%, 81%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .18), 15px 15px 15px 0px rgba(0, 0, 0, .1);
+}
+
+.profile {
+    padding-top: 1rem;
+    width: 100%;
+    line-height: 10px;
+}
+
+.testimonial-content .name,
+.testimonial-content .grad {
+    padding-left: 6em;
+}
+
+.testimonial-content img {
+    border-radius: 100%;
+    float: left;
+}
+
+.testimonial-content .attention {
+    margin-top: 2em;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.daniel {
+    background-image: url(/bg-pattern-quotation.svg);
+    background-color: hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 20%;
+    background-origin: content-box;
+    grid-column: span 2;
+    grid-row: span 1;
+    /* grid-area: daniel; */
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    grid-column: span 1;
+    grid-row: span 1;
+    /* grid-area: jonathan; */
+}
+
+.kira {
+    grid-column: span 1;
+    grid-row: span 2;
+    /* grid-area: kira; */
+}
+
+.jeanette {
+    grid-column: span 1;
+    grid-row: span 1;
+    /* grid-area: jeanette; */
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: span 2;
+    grid-row: span 1;
+    /* grid-area: patrick; */
+}
+
+.daniel .name,
+.daniel .attention,
+.jonathan .name,
+.jonathan .attention,
+.patrick .name,
+.patrick .attention {
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel .grad,
+.jonathan .grad,
+.patrick .grad {
+    color: hsl(0, 0%, 100%, 50%);
+}
+
+.daniel .full-review,
+.jonathan .full-review,
+.patrick .full-review {
+    color: hsl(0, 0%, 100%, 70%);
+}
+
+.kira,
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.kira .name,
+.kira .attention,
+.jeanette .name,
+.jeanette .attention {
+    color: hsl(217, 19%, 35%);
+}
+
+.kira .grad,
+.jeanette .grad {
+    color: hsl(217, 19%, 35%, 50%);
+}
+
+.kira .full-review,
+.jeanette .full-review {
+    color: hsl(217, 19%, 35%, 70%);
+}
+
+.daniel img,
+.patrick img {
+    border: 3px solid hsl(263, 89%, 68%);
+}

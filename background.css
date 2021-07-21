@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    font-family: "Barlow Semir Condensed", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* @media screen and (min-width: 660px) {
+    .testimonial {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "daniel""daniel""jonathan""kira"
+            "jeanette""patrick""patrick""kira";
+    }
+
+
+
+} */
