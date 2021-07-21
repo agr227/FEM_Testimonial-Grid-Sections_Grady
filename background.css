@@ -4,13 +4,13 @@
 
 body {
     margin: 0;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(210, 46%, 95%);
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
     font-family: "Barlow Semir Condensed", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 
