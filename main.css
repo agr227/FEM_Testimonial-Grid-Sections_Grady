@@ -39,6 +39,7 @@
 
 .testimonial-content img {
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-items: center;
     border-radius: 100%;
