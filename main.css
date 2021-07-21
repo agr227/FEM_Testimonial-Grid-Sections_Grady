@@ -3,7 +3,6 @@
     flex: 1 1 100%;
     min-height: 100%;
     text-align: left;
-    line-height: 18px;
 }
 
 .testimonial {
@@ -28,8 +27,8 @@
 
 .profile {
     padding-top: 1rem;
-    width: 90%;
-    line-height: 18px;
+    width: 100%;
+    line-height: 15px;
 }
 
 .testimonial-content .name,
@@ -39,14 +38,17 @@
 }
 
 .testimonial-content img {
+    display: flex;
+    align-content: center;
+    justify-items: center;
     border-radius: 100%;
-    float: left;
 }
 
 .testimonial-content .attention {
     margin-top: 2em;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
+    line-height: 17px;
 }
 
 .daniel {
