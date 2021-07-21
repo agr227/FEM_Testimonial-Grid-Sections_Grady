@@ -26,14 +26,15 @@
 }
 
 .profile {
-    padding-top: 1rem;
+    display:flex;
+/*     padding-top: 1rem; */
     width: 100%;
     line-height: 15px;
 }
 
 .testimonial-content .name,
 .testimonial-content .grad {
-    display: flex;
+/*     display: flex; */
     flex-direction: column;
     align-content: center;
     justify-items: flex-start;
