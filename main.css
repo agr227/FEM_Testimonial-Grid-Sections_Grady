@@ -7,7 +7,7 @@
 
 .testimonial {
     display: grid;
-    height: 70%;
+    height: 50%;
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -33,7 +33,7 @@
 
 .testimonial-content .name,
 .testimonial-content .grad {
-    position: relative;
+    float: right;
     padding-left: 6em;
 }
 
